@@ -27,3 +27,6 @@ pdftotext).
 - [PRR: Boston Public Records Request Log 2021 to Present](https://blog.wokewindows.org/2023/04/19/boston-prr-log.html)
 - [Boston Public Records Log](https://blog.wokewindows.org/2021/01/14/boston-public-records-log.html)
   and [nstory/boston_public_records](https://github.com/nstory/boston_public_records) for my previous work with the 2017 - 2020 files
+
+## LICENSE
+This project is released under the MIT License.
