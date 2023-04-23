@@ -1,7 +1,7 @@
 require "csv"
 
 def parse_id(line)
-    if /^[^a-z0-9]{0,3}([a-z0-9]{3,}-[a-z0-9]{3,})/i =~ line
+    if /^[^a-z0-9]{0,10}([a-z0-9]{3,}-[a-z0-9]{3,})/i =~ line
       $1.gsub(/[OQo]/, "0")
     else
       nil
@@ -10,7 +10,8 @@ end
 
 puts ["id", "text"].to_csv
 
-Dir.glob("output/*.txt").each do |txt_file|
+txt_files = ENV.fetch("OUTPUT_TXT_FILES").split(/\s+/)
+txt_files.each do |txt_file|
   current_id = nil
   text = ""
   IO.read(txt_file).each_line do |line|
