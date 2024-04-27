@@ -1,3 +1,5 @@
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+
 # Boston Public Records as a Spreadsheet (BPRaaSS)
 The City of Boston provided us with PDF documents showing all the public records
 requests made to the city. This project converts those PDFs into CSV files that
@@ -14,7 +16,7 @@ You probably want to download one or more of these files:
 - [output/2022AllRequests_Q3_Redacted.csv](output/2022AllRequests_Q3_Redacted.csv)
 - [output/2022AllRequests_Q4_Redacted.csv](output/2022AllRequests_Q4_Redacted.csv)
 - [output/2023AllRequests_Q1.csv](output/2023AllRequests_Q1.csv)
-- [output/2023AllRequests_Q2.csv](output/2023AllRequests_Q2.csv)
+- [2023_All_Requests_-_Q2_Redacted.csv](2023_All_Requests_-_Q2_Redacted.csv)
 - [output/City_of_Boston_Public_Records_Requests_2017_Redacted.csv](output/City_of_Boston_Public_Records_Requests_2017_Redacted.csv)
 - [output/City_of_Boston_Public_Records_Requests_2018_Redacted.csv](output/City_of_Boston_Public_Records_Requests_2018_Redacted.csv)
 - [output/City_of_Boston_Public_Records_Requests_2019_Redacted.csv](output/City_of_Boston_Public_Records_Requests_2019_Redacted.csv)
